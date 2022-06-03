@@ -23,6 +23,12 @@ header {
   right: 20px;
 }
 
+.title-parts {
+  font-size: 50px;
+  margin-top: 2%;
+  color: white;
+}
+
 a:link,
 a:visited,
 a:active {

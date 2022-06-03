@@ -5,36 +5,77 @@
   text-align: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(170, 170, 170, 0.123);
+  background-color: rgb(41, 41, 41);
 }
 
-.languages, .programs, .technologies {
+.languages,
+.programs,
+.technologies {
   height: 100%;
 }
 
-h3 {
+#skills h3 {
+  color: white;
   font-size: 30px;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
 .icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 2%;
 }
 
+.icon-bg {
+  width: 105px;
+  height: 105px;
+  border-radius: 10px;
+  margin: 13px;
+  background-color: black;
+  text-align: center;
+}
+
 #skills img {
+  background-color: aliceblue;
   padding: 10px;
   border-radius: 10px;
-  margin: 5px;
+  margin: 0px 0px 0px -7px;
   width: 100px;
-  background-color: rgba(151, 151, 151, 0.777);
-  box-shadow: 2px 2px;
+}
+
+.icon-name {
+  color: rgb(234, 234, 234);
+  margin-top: -18px;
+  margin-bottom: 2px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+#skills img:hover {
+  cursor: pointer;
+  width: 112px;
+}
+
+/* Skills range */
+#html:hover, #intellij-idea:hover, #eclipse:hover, #vs-code:hover, #git:hover, #github:hover, #ofimatica:hover, #windows:hover {
+  background-color: lightgreen;
+}
+
+#css:hover, #xml:hover, #java:hover, #sql:hover, #figma:hover, #photoshop:hover, #premiere:hover, #linux:hover, #terminal:hover, #hardware:hover {
+  background-color: rgb(255, 255, 123);
+}
+
+#js:hover, #kotlin:hover, #python:hover, #after-effects:hover {
+  background-color: rgb(255, 115, 115);
 }
 
 @media (max-width: 600px) {
-  h3 {
-    margin: 5%;
+  #skills h3 {
+    margin: 6%;
   }
 }
