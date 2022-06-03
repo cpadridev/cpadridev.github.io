@@ -6,6 +6,7 @@
 }
 
 body {
+  overflow-x: hidden;
   background-color: rgb(41, 41, 41);
 }
 
@@ -25,6 +26,7 @@ header {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  transition: transform .2s; 
 }
 
 .ir-arriba:hover {

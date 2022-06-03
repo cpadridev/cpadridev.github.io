@@ -13,9 +13,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="css/fonts.css">
-
     <!-- Header -->
     <link rel="stylesheet" href="css/header.css">
 
@@ -26,17 +23,13 @@
     <link rel="stylesheet" href="css/skills.css">
     <!-- Projects -->
     <link rel="stylesheet" href="css/projects.css">
+    <!-- Carousel 3D -->
+    <link rel="stylesheet" href="css/carousel-3d.css">
     <!-- Contact -->
     <link rel="stylesheet" href="css/contact.css">
 
     <!-- Footer -->
     <link rel="stylesheet" href="css/footer.css">
-
-    <!-- Carousel -->
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <!-- Add the new slick-theme.css if you want the default styling -->
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="" type="image/x-icon" />
@@ -212,13 +205,32 @@
         <!-- Projects -->
         <div id="projects">
             <h2 class="title-parts">Proyectos</h2>
-            <div>
-                <img src="" alt="">
-                <p></p>
-                <p><span></span></p>
-                <a href=""></a>
-                <a href=""></a>
+            <div class="gallery">
+                <div class="gallery-container">
+                    <img class="gallery-item gallery-item-1" src="http://fakeimg.pl/300/?text=5" data-index="1" id="">
+                    <img class="gallery-item gallery-item-2" src="http://fakeimg.pl/300/?text=6" data-index="2" id="">
+                    <img class="gallery-item gallery-item-3" src="http://fakeimg.pl/300/?text=1" data-index="3" id="project-1">
+                    <img class="gallery-item gallery-item-4" src="http://fakeimg.pl/300/?text=2" data-index="4" id="">
+                    <img class="gallery-item gallery-item-5" src="http://fakeimg.pl/300/?text=3" data-index="5" id="">
+                    <img class="gallery-item gallery-item-6" src="http://fakeimg.pl/300/?text=4" data-index="6" id="">
+                </div>
+
+                <div class="text-project" id="text-project">
+                    <p class="description-project" id="description-project">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic reiciendis et doloremque voluptate porro officiis, facere minus vitae nulla eligendi molestias, facilis necessitatibus labore id iusto veniam, dolorum ab? Delectus!
+                    </p>
+                    <p class="tags" id="tags">
+                        <span class="tag" id="tag">lorem</span>
+                    </p>
+                    <div>
+                        <a href="" target="_blank" class="link-project">Demo</a>
+                        <a href="" target="_blank" class="link-project">Repositorio</a>
+                    </div>
+                </div>
+
+                <div class="gallery-controls"></div>
             </div>
+
         </div>
 
         <div class="border"></div>
@@ -279,18 +291,16 @@
 
     <!-- Scripts -->
     <!-- jQuery -->
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
     <!-- Externos -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
     <!-- Internos -->
-    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/navbar.js"></script>
     <script src="js/arrow-up.js"></script>
+    <script src="js/carousel-3d.js"></script>
 
 </body>
 
