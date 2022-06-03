@@ -5,6 +5,7 @@
   text-align: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgb(41, 41, 41);
 }
 
 .bg-form {
@@ -24,8 +25,8 @@
 }
 
 .form-group label {
+  color: white;
   font-size: 20px;
-  text-align: left;
 }
 
 .form-group input,
@@ -37,8 +38,9 @@ textarea {
 }
 
 .form-group textarea {
-  height: 100px;
+  min-height: 100px;
   resize: vertical;
+  max-height: 300px;
 }
 
 .rss img {
@@ -49,4 +51,10 @@ textarea {
 
 .rss a {
   color: #000;
+}
+
+@media (max-width: 600px) {
+  #contact {
+    grid-template-columns: 1fr;
+  }
 }
