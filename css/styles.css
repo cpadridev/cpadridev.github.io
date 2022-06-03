@@ -27,6 +27,12 @@ header {
   right: 20px;
 }
 
+.ir-arriba:hover {
+  transform: scale(1.20);
+  color: black;
+  background-color: #fff;
+}
+
 .title-parts {
   font-size: 50px;
   margin-top: 5%;

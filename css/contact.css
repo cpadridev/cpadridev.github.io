@@ -89,7 +89,7 @@ textarea {
 }
 
 @media (max-width: 600px) {
-  #contact {
+  .text-contact {
     grid-template-columns: 1fr;
   }
 }
