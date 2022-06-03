@@ -35,12 +35,26 @@ textarea {
   height: 40px;
   padding: 10px;
   font-size: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 .form-group textarea {
   min-height: 100px;
   resize: vertical;
   max-height: 300px;
+}
+
+.required {
+  color: red;
+}
+
+.rss {
+  margin-left: 10%;
+  width: 80%;
+  border-radius: 10px;
+  background-color: rgb(237, 237, 237);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 .rss img {
