@@ -1,0 +1,52 @@
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bg-form {
+  padding: 20px;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.form-group label {
+  font-size: 20px;
+  text-align: left;
+}
+
+.form-group input,
+textarea {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.rss img {
+  width: 30px;
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.rss a {
+  color: #000;
+}

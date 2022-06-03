@@ -1,0 +1,60 @@
+#about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/wallpapers/binaryDesign2.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.adrianImage {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.welcome {
+  padding: 20px 50px 0px 0px;
+  font-size: 60px;
+  color: white;
+}
+
+.title {
+  padding: 0px 50px 0px 0px;
+  color: white;
+}
+
+.description {
+  padding: 50px 50px 50px 0px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #about-me {
+    grid-template-columns: 1fr;
+  }
+
+  .adrianImage {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .welcome {
+    font-size: 40px;
+    padding: 0px;
+  }
+
+  .title {
+    font-size: 20px;
+    padding: 0px;
+  }
+
+  .description {
+    font-size: 15px;
+    padding: 20px;
+  }
+}
