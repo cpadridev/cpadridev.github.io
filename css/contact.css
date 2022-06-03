@@ -1,11 +1,10 @@
-#contact {
+.text-contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 0px;
   text-align: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(41, 41, 41);
 }
 
 .bg-form {
@@ -35,6 +34,7 @@ textarea {
   height: 40px;
   padding: 10px;
   font-size: 15px;
+  margin-top: 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
@@ -43,6 +43,17 @@ textarea {
   min-height: 100px;
   resize: vertical;
   max-height: 300px;
+}
+
+.submit {
+  transition: transform .2s; 
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: rgb(76, 76, 76);
+  color: white;
+  transform: scale(1.10);
 }
 
 .required {
@@ -64,7 +75,17 @@ textarea {
 }
 
 .rss a {
+  display: inline-block;
+  width: 100%;
   color: #000;
+  transition: transform .2s; 
+}
+
+.rss a:hover {
+  background-color: rgb(76, 76, 76);
+  border-radius: 10px;
+  color: white;
+  transform: scale(1.10); 
 }
 
 @media (max-width: 600px) {
