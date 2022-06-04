@@ -27,6 +27,7 @@ body {
   bottom: 20px;
   right: 20px;
   transition: transform .2s; 
+  z-index: 1;
 }
 
 .ir-arriba:hover {
