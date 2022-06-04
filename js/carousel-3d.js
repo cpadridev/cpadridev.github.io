@@ -1,6 +1,6 @@
 const galleryContainer = document.querySelector(".gallery-container");
 const galleryControlsContainer = document.querySelector(".gallery-controls");
-const galleryControls = ["previous" /*'add'*/, , "next"];
+const galleryControls = ["previous", /*'add'*/, , "next"];
 const galleryItems = document.querySelectorAll(".gallery-item");
 
 class Carousel {
@@ -17,6 +17,7 @@ class Carousel {
       el.classList.remove("gallery-item-2");
       el.classList.remove("gallery-item-3");
       el.classList.remove("gallery-item-4");
+      el.classList.remove("gallery-item-5");
       el.classList.remove("gallery-item-5");
     });
 
