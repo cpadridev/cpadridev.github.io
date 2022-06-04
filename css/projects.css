@@ -154,6 +154,8 @@
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  display: inline-block;
+  width: 300px;
 }
 
 .tags {
