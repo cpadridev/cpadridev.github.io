@@ -1,10 +1,14 @@
+#contact {
+  min-height: 100vh;
+  background-color: rgb(31, 31, 31);
+}
+
 .text-contact {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 0px;
   text-align: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 .bg-form {
