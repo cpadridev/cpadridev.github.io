@@ -23,6 +23,31 @@ class Carousel {
     this.carouselArray.slice(0, 5).forEach((el, i) => {
       el.classList.add(`gallery-item-${i + 1}`);
     });
+
+    var index =
+      document.getElementsByClassName("gallery-item-3")[0].id;
+
+    if (index == "1") {
+      document.getElementById("description-project").innerHTML =
+        "Una web para de una aplicacion de moda que comprueba la compatibilidad de los colores de la ropa que llevas puesta, y te recomienda la ropa que te puede encajar.";
+
+      document.getElementById("tags").innerHTML =
+        '<span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span>';
+
+      document.getElementById("linkProjectDemo").href = "https://cpadridev.github.io/fime/";
+      document.getElementById("linkProjectRepo").href = "https://github.com/cpadridev/fime";
+    };
+
+    if (index == "2") {
+      document.getElementById("description-project").innerHTML =
+        "Proximamente ...";
+
+      document.getElementById("tags").innerHTML =
+        '';
+
+      document.getElementById("linkProjectDemo").href = "";
+      document.getElementById("linkProjectRepo").href = "";
+    };
   }
 
   // Update the current order of the carouselArray and gallery

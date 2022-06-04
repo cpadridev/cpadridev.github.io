@@ -164,11 +164,12 @@
 }
 
 .tag {
+  display: inline-block;
   background: rgb(41, 112, 255);
   border: rgb(0, 85, 255) 2px solid;
   border-radius: 2em;
-  padding: 0 7px;
-  white-space: nowrap;
+  margin-top: 3px;
+  padding: 2px 7px;
   font-weight: 500;
   padding-right: 10px;
   padding-left: 10px;
@@ -179,7 +180,7 @@
 }
 
 .link-project {
-  background-color: rgb(76, 76, 76);
+  background-color: rgb(99, 99, 99);
   border-radius: 10px;
   box-shadow: 2px 2px 2px rgb(0 0 0);
   color: #fff;

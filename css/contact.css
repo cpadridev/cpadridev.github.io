@@ -86,10 +86,10 @@ textarea {
 }
 
 .rss a:hover {
-  background-color: rgb(76, 76, 76);
+  background-color: rgb(115, 115, 115);
   border-radius: 10px;
   color: white;
-  transform: scale(1.10); 
+  transform: scale(1.1); 
 }
 
 @media (max-width: 600px) {
