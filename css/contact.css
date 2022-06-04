@@ -92,4 +92,8 @@ textarea {
   .text-contact {
     grid-template-columns: 1fr;
   }
+
+  .rss {
+    margin-bottom: 50px;
+  }
 }
