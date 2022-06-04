@@ -28,8 +28,15 @@
 }
 
 .description {
-  padding: 50px 50px 50px 0px;
+  padding: 50px 100px;
   color: white;
+}
+
+@media (max-width: 1000px) {
+  .description {
+    font-size: 15px;
+    padding: 10px 50px 0px 0px;
+  }
 }
 
 @media (max-width: 600px) {
