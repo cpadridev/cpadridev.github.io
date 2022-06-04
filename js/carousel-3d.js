@@ -41,7 +41,18 @@ class Carousel {
 
     if (index == "2") {
       document.getElementById("description-project").innerHTML =
-        "Proximamente ...";
+        "Clon de Google para poner a prueba mis conocimientos básicos de html y css.";
+
+      document.getElementById("tags").innerHTML =
+        '<span class="tag">HTML</span> <span class="tag">CSS</span>';
+
+      document.getElementById("linkProjectDemo").href = "https://cpadridev.github.io/Google-clone/";
+      document.getElementById("linkProjectRepo").href = "https://github.com/cpadridev/Google-clone";
+    };
+
+    if (index == "3") {
+      document.getElementById("description-project").innerHTML =
+        "Próximamente...";
 
       document.getElementById("tags").innerHTML =
         '';
