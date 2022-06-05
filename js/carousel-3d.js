@@ -30,7 +30,7 @@ class Carousel {
 
     if (index == "1") {
       document.getElementById("description-project").innerHTML =
-        "Una web para de una aplicacion de moda que comprueba la compatibilidad de los colores de la ropa que llevas puesta, y te recomienda la ropa que te puede encajar.";
+        "Una web para de una aplicación de moda que comprueba la compatibilidad de los colores de la ropa que llevas puesta, y te recomienda la ropa que te puede encajar.";
 
       document.getElementById("tags").innerHTML =
         '<span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span>';
