@@ -12,3 +12,9 @@ footer p {
   display: inline-block;
   color: rgb(77, 77, 77);
 }
+
+.image-footer {
+  width: 32px;
+  vertical-align: middle;
+  border-radius: 10px;
+}

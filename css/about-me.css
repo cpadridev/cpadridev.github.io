@@ -11,9 +11,11 @@
   min-height: 100vh;
 }
 
-.adrianImage {
-  width: 100%;
+.adrianImage {  
+  justify-content: center;
+  width: 50%;
   border-radius: 50%;
+  margin: 0 25%;
 }
 
 .welcome {
@@ -32,7 +34,13 @@
   color: white;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1175px) {
+  .adrianImage {
+    width: 75%;
+    margin: -30% 20%; 
+    padding: 50px 0px 0px 0px;
+  }
+
   .description {
     font-size: 15px;
     padding: 10px 50px 0px 0px;
@@ -53,9 +61,13 @@
   }
 
   .adrianImage {
-    width: 100%;
-    height: auto;
+    width: 60%;
+    margin: -30% 20%; 
     padding: 50px 0px 0px 0px;
+  }
+
+  .description-text {
+    margin-top: -40%;
   }
 
   .welcome {
