@@ -42,6 +42,16 @@ class Carousel {
 
     if (index == "2") {
       document.getElementById("description-project").innerHTML =
+        "Réplica de un proyecto de Frontend mentor. Hecho a partir de una plantilla con los textos y colores, usando solamente HTML y CSS";
+
+      document.getElementById("tags").innerHTML = '<span class="tag">HTML</span> <span class="tag">CSS</span>';
+
+      document.getElementById("linkProjectDemo").href = "https://cpadridev.github.io/chat-app-css-illustration/";
+      document.getElementById("linkProjectRepo").href = "https://github.com/cpadridev/chat-app-css-illustration";
+    }
+
+    if (index == "3") {
+      document.getElementById("description-project").innerHTML =
         "Clon de Google para poner a prueba mis conocimientos básicos de HTML y CSS.";
 
       document.getElementById("tags").innerHTML =
@@ -53,7 +63,17 @@ class Carousel {
         "https://github.com/cpadridev/Google-clone";
     }
 
-    if (index == "3") {
+    if (index == "4") {
+      document.getElementById("description-project").innerHTML =
+        "Próximamente...";
+
+      document.getElementById("tags").innerHTML = "";
+
+      document.getElementById("linkProjectDemo").href = "";
+      document.getElementById("linkProjectRepo").href = "";
+    }
+
+    if (index == "5") {
       document.getElementById("description-project").innerHTML =
         "Próximamente...";
 
