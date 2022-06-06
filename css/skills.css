@@ -54,7 +54,7 @@
   border-radius: 10px;
   margin: 0px 0px 0px -7px;
   width: 100px;
-  transition: transform .2s; 
+  transition: transform 0.2s;
 }
 
 .icon-name {
@@ -67,19 +67,38 @@
 
 #skills img:hover {
   cursor: pointer;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 /* Skills range */
-#html:hover, #intellij-idea:hover, #eclipse:hover, #vs-code:hover, #git:hover, #github:hover, #ofimatica:hover, #windows:hover {
+#html:hover,
+#intellij-idea:hover,
+#eclipse:hover,
+#vs-code:hover,
+#git:hover,
+#github:hover,
+#ofimatica:hover,
+#windows:hover {
   background-color: lightgreen;
 }
 
-#css:hover, #xml:hover, #java:hover, #sql:hover, #figma:hover, #photoshop:hover, #premiere:hover, #linux:hover, #terminal:hover, #hardware:hover {
+#css:hover,
+#xml:hover,
+#java:hover,
+#sql:hover,
+#figma:hover,
+#photoshop:hover,
+#premiere:hover,
+#linux:hover,
+#terminal:hover,
+#hardware:hover {
   background-color: rgb(255, 255, 123);
 }
 
-#js:hover, #kotlin:hover, #python:hover, #after-effects:hover {
+#js:hover,
+#kotlin:hover,
+#python:hover,
+#after-effects:hover {
   background-color: rgb(255, 115, 115);
 }
 

@@ -50,14 +50,14 @@ textarea {
 }
 
 .submit {
-  transition: transform .2s; 
+  transition: transform 0.2s;
 }
 
 .submit:hover {
   cursor: pointer;
   background-color: rgb(76, 76, 76);
   color: white;
-  transform: scale(1.10);
+  transform: scale(1.1);
 }
 
 .required {
@@ -82,14 +82,14 @@ textarea {
   display: inline-block;
   width: 100%;
   color: #000;
-  transition: transform .2s; 
+  transition: transform 0.2s;
 }
 
 .rss a:hover {
   background-color: rgb(115, 115, 115);
   border-radius: 10px;
   color: white;
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 @media (max-width: 600px) {

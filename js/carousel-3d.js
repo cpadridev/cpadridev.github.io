@@ -1,6 +1,6 @@
 const galleryContainer = document.querySelector(".gallery-container");
 const galleryControlsContainer = document.querySelector(".gallery-controls");
-const galleryControls = ["previous", /*'add'*/, , "next"];
+const galleryControls = ["previous" /*'add'*/, , , "next"];
 const galleryItems = document.querySelectorAll(".gallery-item");
 
 class Carousel {
@@ -25,8 +25,7 @@ class Carousel {
       el.classList.add(`gallery-item-${i + 1}`);
     });
 
-    var index =
-      document.getElementsByClassName("gallery-item-3")[0].id;
+    var index = document.getElementsByClassName("gallery-item-3")[0].id;
 
     if (index == "1") {
       document.getElementById("description-project").innerHTML =
@@ -35,9 +34,11 @@ class Carousel {
       document.getElementById("tags").innerHTML =
         '<span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span>';
 
-      document.getElementById("linkProjectDemo").href = "https://cpadridev.github.io/fime/";
-      document.getElementById("linkProjectRepo").href = "https://github.com/cpadridev/fime";
-    };
+      document.getElementById("linkProjectDemo").href =
+        "https://cpadridev.github.io/fime/";
+      document.getElementById("linkProjectRepo").href =
+        "https://github.com/cpadridev/fime";
+    }
 
     if (index == "2") {
       document.getElementById("description-project").innerHTML =
@@ -46,20 +47,21 @@ class Carousel {
       document.getElementById("tags").innerHTML =
         '<span class="tag">HTML</span> <span class="tag">CSS</span>';
 
-      document.getElementById("linkProjectDemo").href = "https://cpadridev.github.io/Google-clone/";
-      document.getElementById("linkProjectRepo").href = "https://github.com/cpadridev/Google-clone";
-    };
+      document.getElementById("linkProjectDemo").href =
+        "https://cpadridev.github.io/Google-clone/";
+      document.getElementById("linkProjectRepo").href =
+        "https://github.com/cpadridev/Google-clone";
+    }
 
     if (index == "3") {
       document.getElementById("description-project").innerHTML =
         "Próximamente...";
 
-      document.getElementById("tags").innerHTML =
-        '';
+      document.getElementById("tags").innerHTML = "";
 
       document.getElementById("linkProjectDemo").href = "";
       document.getElementById("linkProjectRepo").href = "";
-    };
+    }
   }
 
   // Update the current order of the carouselArray and gallery
