@@ -26,11 +26,13 @@
 
 .title {
   padding: 0px 50px 0px 50px;
+  font-size: 40px;
   color: white;
 }
 
 .description {
   padding: 50px 100px;
+  font-size: 20px;
   color: white;
 }
 
@@ -79,5 +81,11 @@
   .description {
     font-size: 15px;
     padding: 20px;
+  }
+}
+
+@media screen and (min-height: 800px) and (max-width: 600px) {
+  .description-text {
+    margin-top: -250px;
   }
 }
